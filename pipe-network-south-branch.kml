@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pipe Network - South Branch</name>
+    <Style id="pipeSouthBranchStyle">
+      <LineStyle>
+        <color>ff1f77b4</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="pipeValveStyle">
+      <IconStyle>
+        <color>ff1478ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/water.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>South Branch</name>
+      <styleUrl>#pipeSouthBranchStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          145.776018,15.177308,0
+          145.776518,15.175308,0
+          145.777018,15.173308,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Valve V-1</name>
+      <styleUrl>#pipeValveStyle</styleUrl>
+      <Point>
+        <coordinates>145.776518,15.175308,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Valve V-2</name>
+      <styleUrl>#pipeValveStyle</styleUrl>
+      <Point>
+        <coordinates>145.777018,15.173308,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

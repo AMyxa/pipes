@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pipe Network - Main Line</name>
+    <Style id="pipeMainLineStyle">
+      <LineStyle>
+        <color>ffcc6600</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Placemark>
+      <name>Trunk Main - West Section</name>
+      <styleUrl>#pipeMainLineStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          145.772018,15.177308,0
+          145.774018,15.177308,0
+          145.776018,15.177308,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Trunk Main - East Section</name>
+      <styleUrl>#pipeMainLineStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          145.776018,15.177308,0
+          145.778018,15.177508,0
+          145.780518,15.177508,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

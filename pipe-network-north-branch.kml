@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pipe Network - North Branch</name>
+    <Style id="pipeNorthBranchStyle">
+      <LineStyle>
+        <color>ff2ca02c</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Placemark>
+      <name>North Branch</name>
+      <styleUrl>#pipeNorthBranchStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          145.776018,15.177308,0
+          145.776018,15.179308,0
+          145.775518,15.181308,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
